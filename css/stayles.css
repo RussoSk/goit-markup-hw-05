@@ -233,12 +233,11 @@ img {
   border-radius: 4px;
 
   transition: background-color var(--transform-time-cubic),
-    color var(--transform-time-cubic), box-shadow var(--transform-time-cubic);
+  box-shadow var(--transform-time-cubic);
 }
 .main-button:hover,
 .main-button:focus {
   background-color: var(--active-primari-color);
-  color: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
