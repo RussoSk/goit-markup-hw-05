@@ -177,7 +177,6 @@ img {
   position: absolute;
   bottom: -100%;
   left: 0;
-  opacity: 1;
   display: inline-block;
   width: 100%;
   height: 4px;
@@ -185,11 +184,14 @@ img {
   background: var(--active-primari-color);
   opacity: 0;
 }
-/* .menu-link:active.menu-link::after {
+.active-page.menu-link::after {
   opacity: 1;
-} */
+}
 .menu-link:active {
   color: var(--active-primari-color);
+}
+.active-page {
+  color: var(--primary-color);
 }
 /*  ======================== /HEADER ======================== */
 
