@@ -504,7 +504,9 @@ transition: background-color var(--transform-time-cubic);
 /* ================ overlay============== */
 
 /* ======================== /PORTFOLIO ======================== */
-/* ===================== modal window =========================*/
+
+
+/* ============ modal window ============*/
 .backdrop {
   position: fixed;
   z-index: 50;
@@ -547,12 +549,13 @@ transition: background-color var(--transform-time-cubic);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 
-  transition: border-color var(--transform-time-cubic);
+  transition: border-color var(--transform-time-cubic), background-color var(--transform-time-cubic);
 }
 .modal-close-button:hover,
 .modal-close-button:focus {
   border-color: var(--active-primari-color);
-  fill: var(--active-primari-color);
+  background-color: var(--active-primari-color);
+  fill: #ffff;
 }
 .modal-close-button-icon {
   transition: fill var(--transform-time-cubic);
