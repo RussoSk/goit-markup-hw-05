@@ -185,12 +185,8 @@ img {
   background: var(--active-primari-color);
 
 }
-
-.menu-link:active {
-  color: var(--active-primari-color);
-}
 .active-page {
-  color: var(--primary-color);
+  color: var(--active-primari-color);
 }
 /*  ======================== /HEADER ======================== */
 
